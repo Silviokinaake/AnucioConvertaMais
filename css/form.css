@@ -1,0 +1,16 @@
+.panel-form {
+
+    margin-top: 32px;
+}
+
+.panel-form .title {
+    font-size: 28px;
+    color: rgb(17, 6, 168);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button-place {
+    text-align: center;
+}
+

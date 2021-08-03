@@ -1,0 +1,38 @@
+.panel-about{
+    margin-top: 10px;
+    text-align: center;
+    background: #8fcaa2;
+    color: rgb(37, 34, 34);
+    border-radius: 4px;
+    padding-top: 40px;
+    font-family:-apple-system;
+}
+
+.panel-about .title {
+    font-size: 35px;
+    margin-bottom: 16px; /*margem inferior*/
+    color: rgb(17, 6, 168);
+    font-weight: bold;
+}
+
+.panel-about .subtitle{
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: rgb(17, 6, 168);
+}
+
+.panel-about .about-description{
+    font-size: 22px;
+    line-height: 35px;
+    color: rgb(17, 6, 168);
+}
+
+.eventos {
+    width: 28%;
+    height: 250px;
+    border-width: 2px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 10px;
+}

@@ -1,0 +1,37 @@
+.container {
+    /*o container foi colocado no html para criar uma regra para o tamnho da fonte em caso de mudança de tela ... <div class= "container">*/
+    width: 96%;
+    margin: 0 auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 40px;
+    margin: 5px;
+    background-color: #48A3A6;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px black;
+    text-decoration: none; /* retira o sublinhado do texto*/
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+
+
+.field {
+    margin-bottom: 12px;
+}
+.field label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+.field .field-input {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #48A3A6;
+}

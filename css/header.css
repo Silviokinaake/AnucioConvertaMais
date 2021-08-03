@@ -1,0 +1,74 @@
+.header{
+    background: url('../img/fundo3.png') no-repeat; /* no-repeat = Para a imagem não duplicar */
+    background-size: cover; /*estica a imagem para esticar a imagem para os lados*/
+    padding-top: 32px; /*Para afastar o conteúdo da borda*/
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(133, 7, 236);
+    height: 45vw;
+
+}
+
+.header .main-menu {
+    text-align: center;
+  }
+  
+  .header .main-menu .menu-item {
+    display: inline-block;
+    margin: 0 2px 32px 0;
+  }
+
+  .header .main-menu .menu-item a {
+
+    color: white;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    text-decoration: none; /* retira o sublinhado do texto*/
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+  }
+  .header .main-menu .menu-item a:hover { /* hover quando passar o mouse sobre.. muda de cor*/
+
+    background-color: #48A3A6;
+  }
+
+  .header .jumbotron {
+    padding: 0 0 44px 0;
+    text-align: center;
+    text-transform: uppercase; /*Deixa tudo em maiúsculo*/
+  }
+
+  .header .panel-main {
+
+    color: white;
+    text-shadow: 4px 4px 10px black; /*sombra das letras*/
+  }
+
+  .header .jumbotron .title {
+
+    font-size: 3em;
+    color: white;
+  }
+  
+  .header  .jumbotron .subtitle {
+  
+    color:#64ff64;
+    font-size: 2.6em;
+    margin-top: 8px;
+  }
+
+  .header .panel-subscribe {
+    margin-top: 36vw;
+
+  }
+
+/* @media(min-width: 650px) ou max-width configura o tamanho da fonte de acordo com o tamanho da tela utilizada*/
+
+@media(min-width: 650px) { /*Quando a tela passar de 650px a fonte almentará 2em , 3em .....*/
+
+    .header .jumbotron {
+
+        font-size: 28px;
+    }
+
+}
