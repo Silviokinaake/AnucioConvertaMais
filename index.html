@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>AluraConf</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/speakers.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="main-menu">
+            <ul>
+                <li class="menu-item"><a href="#panel-about">Sobre</a></li>
+                <li class="menu-item"><a href="#panel-speakers">Multiplicadores</a></li>
+            </ul>
+        </nav>
+        <div class="jumbotron">
+            <section class="panel-main">
+               <!-- <h1 class= "title">ENTENDER PARA VENDER  #Converta +</h1>-->
+               <!-- <h2 class= "subtitle">31JULHO|CEC</h2>-->
+             
+            </section>
+            <section class="panel-subscribe">
+                <a href="#panel-form" class="button">Inscreva-se</a>
+            </section>
+        </div>  
+    </header>
+    <section class="panel panel-about" id="panel-about">
+
+        <div class= "container">
+            <h2 class="title">UM EVENTO PARA IMPULSIONAR SUAS VENDAS</h2>
+            <h3 class="subtitle">31 de Julho de 2021 - No CEC</h3>
+        
+            <div class="about-description">
+                    <p>
+                    # No  ENTENDER PARA VENDER  #Converta + abordaremos temas e técnicas de negociação do ponto de vista do cliente
+                    </p>
+                    <p>
+                    # Realização de dinamicas interativas
+                    </p>
+                    <p>
+                    # Cenários personalizados
+                    </p>
+            </div>
+            <div  class="about-img" id="eventos">
+                <img class="eventos" src="img/sobre3.jpg">
+                <img class="eventos" src="img/sobre2.jpg">
+                <img class="eventos" src="img/sobre1.jpg">
+
+            </div>
+
+
+        </div>   
+    </section>
+
+    <!-- Recurso emt =   sectio.panel-speakers>h2{PALESTRANTES}.title+h3{Aprenda com multiplicadores que são referências na Autoglass}.subtitle    -->
+    <section class="panel-speakers" id= "panel-speakers">
+        <div class="container">
+            <div class= "about-speakers">
+                <h2 class="title">MULTIPLICADORES</h2>
+            </div>    
+            <!-- ul.speakers>li.speaker>figure.speaker-portrait>img+ficaption+p.speaker-bio -->
+
+                <ul class="speakers">
+                    <li class="speaker">
+                        <figure class="speaker-portrait">
+                            <img class="speaker-image" src="img/palestrantes/instrutoraDanielle.jpg" alt="foto do palestrante">   
+                            <figcaption class="speaker-name">Danielle Reis</figcaption>
+                            <p class="speaker-cec">Instrutora - CEC</p>   
+                        </figure>   
+                        <p class="speaker-speach">Formada em Adm. de Empresas, MBA em Marketing e Inteligência de Negócios Digitais/FGV, Esperiencia de 15 anos no CEVEN.</p>
+                    </li>
+
+                    <li class="speaker">
+                        <figure class="speaker-portrait">
+                            <img class="speaker-image" src="img/palestrantes/instrutorLucas.jpg" alt="foto do palestrante">   
+                            <figcaption class="speaker-name">Lucas Molino</figcaption>
+                            <p class="speaker-cec">Instrutor - CEC</p>   
+                        </figure>   
+                        <p class="speaker-speach">Formado em Logística, MBA Executivo em Gestão Estratégica do Comportamento do Consumidor/USP, Esperiencia de 14 anos no CEVEN.</p>
+                    </li> 
+                </ul>
+        </div>  
+    </section>
+
+    <section class= "panel-form" id="panel-form">
+        <div class= "container">
+            <h2 class= "title">Realize sua inscrição</h2>
+            <form>
+                <div class= "field" id= "nome">
+                    <label>Nome</label>
+                    <input id = "nome" class= "field-input" required
+                    placeholder="Nome Sobrenome">
+                </div>
+
+                <div class= "field">
+                    <label>E-mail</label>
+                    <input class= "field-input" required
+                    placeholder="yyyyy.zzzzz@autoglass.com.br">
+                </div>
+
+                <div class= "field">
+                    <label>Telefone</label>
+                    <input class= "field-input" required
+                    placeholder="(XX) XXXXX-XXXX">
+                </div>
+
+
+                <div class= "button-place">
+                    <button class= "button" value= "gravarInscrição" onclick="gravarInscricao()">GRAVAR INSCRIÇÃO</button>
+                </div>
+            
+            </form>
+        </div>
+    </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+
+</html>
